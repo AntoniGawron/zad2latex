@@ -1,0 +1,162 @@
+\documentclass{beamer}
+\usepackage{graphicx} % Required for inserting images
+\usetheme{Warsaw}
+\usepackage[T1]{fontenc}
+
+\title{Tytuł prezentacji}
+\author{Antoni Gawron}
+\date{January 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{frame}{Slajd 1}
+Wprowadzenie 
+
+\vspace{10pt}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum congue odio, at iaculis nunc auctor at. Quisque aliquam in tellus vel gravida. Ut libero justo, fermentum ut accumsan sed, pretium vel orci. Suspendisse accumsan porttitor augue, eget finibus ligula pellentesque in. 
+
+\end{frame}
+
+\begin{frame}{Slajd 2}
+Tutaj lista wypunktowana
+
+\begin{itemize}
+  \item Punkt pierwszy
+  \item Punkt drugi
+  \item Punkt trzeci
+  \item Punkt czwarty
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{lista.png}
+    \label{fig:enter-label}
+\end{figure}
+
+
+
+\end{frame}
+
+
+\begin{frame}{Slajd 3}
+Przykładowa Tabela 
+
+\begin{table}[htb]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    Krok & Wierzchołek & STOS \\
+    \hline
+    1 & a & a \\
+    \hline
+    2 & b & a,b \\
+    \hline
+    3 & c & a,b,c \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Slajd 4}
+Lista Ponumerowana
+\begin{enumerate}
+  \item Punkt pierwszy
+  \item Punkt drugi
+  \item Punkt trzeci
+  \item Punkt czwarty
+  \label{fig:tabela}
+\end{enumerate}
+\vspace{10pt}
+To jest przykladowy blok
+
+\begin{block}{Blok}
+  To jest treść bloku.
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}{Slajd 5}
+Odwołanie się do książki: \cite{Autor2}
+
+Quisque hendrerit magna in euismod suscipit. Maecenas semper tincidunt ante. Etiam sit amet elit eu velit consequat hendrerit sed a leo. Mauris facilisis arcu nec sapien pretium vulputate. Praesent convallis commodo faucibus. Fusce tempor et eros sed tincidunt. Ut sit amet venenatis lorem. Sed et pellentesque velit. 
+\vspace{5pt}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{lorem.png}
+    \label{fig:lorem}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Slajd 6}
+Stepik to jest to
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum congue odio, at iaculis nunc auctor at. Quisque aliquam in tellus vel gravida.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{stepson.png}
+    \label{fig:stepik}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Slajd 7}
+Ut libero justo, fermentum ut accumsan sed, pretium vel orci. Suspendisse accumsan porttitor augue, eget finibus ligula pellentesque in. Morbi non lobortis nulla. Cras sagittis dictum tristique. Vestibulum non hendrerit augue. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{htmlcssjs.png}
+
+    \label{fig:html}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Slajd 8}
+Przykład Grafu Hamiltonowskiego
+Odwołanie się do artykułu: \cite{Autor1}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{graf.png}
+    \label{fig:graf}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Slajd 9}
+Odwolanie do stepika: \ref{fig:stepik}
+Odwolanie do grafu: \ref{fig:graf}
+Odwolanie do tabeli \ref{fig:tabela}
+
+
+\end{frame}
+
+
+\begin{frame}{Slajd 10}
+Ostatni slajd
+
+\vspace{10pt}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum congue odio, at iaculis nunc auctor at. Quisque aliquam in tellus vel gravida. Ut libero justo, fermentum ut accumsan sed, pretium vel orci. Suspendisse accumsan porttitor augue, eget finibus ligula pellentesque in. Morbi non lobortis nulla. Cras sagittis dictum tristique. Vestibulum non hendrerit augue. 
+
+\end{frame}
+
+\begin{frame}
+
+  \begin{thebibliography}{99}
+    \bibitem{Autor1} Imie Nazwisko1, Tytuł, Wydawnictwo, 2020
+    \bibitem{Autor2} Imie Nazwisko2, Tytuł Książki, Wydawnictwo inne, 2018
+  \end{thebibliography}
+
+\end{frame}
+
+
+
+
+
+\end{document}
